@@ -6,7 +6,8 @@ Veuillez prendre en considération les éléments suivants :
 
 - page statique où aucun boutons ne fonctionnent
 - clean code
-- déploiement du projet via Netlify [project-Futura-one-page]()
+- responsive 
+- déploiement du projet via Netlify [project-Futura-one-page](https://project-futura-vuejs.netlify.app/)
 
 Toute utilisation commerciale est interdite.
 

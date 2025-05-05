@@ -1,0 +1,80 @@
+@import './base.css';
+/* Roboto Regular */
+@font-face {
+  font-family: 'Roboto';
+  src: url('@/assets/fonts/Roboto-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/* Roboto Bold */
+@font-face {
+  font-family: 'Roboto';
+  src: url('@/assets/fonts/Roboto-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+/* Roboto Light */
+@font-face {
+  font-family: 'Roboto';
+  src: url('@/assets/fonts/Roboto-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+/* Merriweather Regular */
+@font-face {
+  font-family: 'Merriweather 24pt';
+  src: url('@/assets/fonts/Merriweather24pt-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* Merriweather Light */
+@font-face {
+  font-family: 'Merriweather 24pt';
+  src: url('@/assets/fonts/Merriweather24pt-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+/* Merriweather Bold */
+@font-face {
+  font-family: 'Merriweather 24pt';
+  src: url('@/assets/fonts/Merriweather24pt-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --full-black: black;
+  --full-white: white;
+  --linear-gradient-purple: linear-gradient(50deg, #be80ff, #6325ff);
+  --bckg-clr-button: #ffaf17;
+  --bckg-main: #f3f6f6;
+  --font-purple: #6325ff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; /* Regular */
+  min-height: 100vh;
+  background-color: var(--bckg-main);
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+main {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1300px) {
+  main {
+    width: auto;
+  }
+}
